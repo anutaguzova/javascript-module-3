@@ -16,7 +16,11 @@
  */
 
 // Finish the code of the function
-function exercise12() {}
+function exercise12(array, entry) {
+    let result = array.includes(entry);
+
+    return result;
+}
 
 // Don’t change the code bellow this line
 export default exercise12;
