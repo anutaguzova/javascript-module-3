@@ -50,12 +50,12 @@ The initial information to show in this project will be the chapters, from which
 
 The page will consist of three main sections:
 #### 1.2.1. Header
-The header section should show at least the **Project title**
++The header section should show at least the **Project title** 
 #### 1.2.2. Sidebar
 The sidebar section should show at least the following information:
-- List of the Rick & Morty episodes of the first API pagination
++- List of the Rick & Morty episodes of the first API pagination
 - Button that will load the next page of episodes below the previous one
-- The user will be able to scroll in the sidebar to see the entire list of chapters
++- The user will be able to scroll in the sidebar to see the entire list of chapters
 #### 1.2.3. Main container
 The section of the main container will be the one that contains the detail of the elements.
 ### 1.3. Steps for development Part - 1
