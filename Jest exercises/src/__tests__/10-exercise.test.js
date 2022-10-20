@@ -7,6 +7,9 @@ describe("10-exercises", () => {
   beforeAll(() => {
     // 1. set the default inner html of the document body
     //    to have a div with a class of .wrapper
+
+    document.body.innerHTML = `<div class="wrapper"></div>`;
+
   });
 
   test("adds a button to the dom", () => {
@@ -14,6 +17,10 @@ describe("10-exercises", () => {
     expect.assertions(1);
 
     const btnText = "Save";
+    addButton(btnText);
+    const buttonA = document.querySelector(".btn");
+
+    expect(btnText).toEqual(buttonA.textContent);
 
     // 2. execute the addButton function and pass it as an argument
     //    the `btnText` variable

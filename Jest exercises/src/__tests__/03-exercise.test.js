@@ -15,6 +15,8 @@ describe("03-exercises", () => {
      * with the `numbers` array as an argument, is equal to the `expected` array
      */
 
+     expect(multiplyNums(numbers)).toEqual(expected);
+
     // Write the assertion
   });
 
@@ -29,6 +31,8 @@ describe("03-exercises", () => {
      *
      * You should use a jest matcher that checks the reference of arrays and not .toEqual
      */
+
+     expect(numbers).not.toEqual(multiplyNums(numbers));
 
     // Write the assertion
   });
@@ -58,5 +62,7 @@ describe("03-exercises", () => {
      * to see of calling the function with `userWithSensitiveInformation`
      * returns an object that has the same `key: value` pairs as the `safeUserData`
      */
+
+     expect(sanitizeUserData(userWithSensitiveInformation)).toEqual(safeUserData);
   });
 });
